@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width/>
+    <title>@ViewData["Title"] - EVNT</title>
+
+    @*  Section for CSS Start *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="~/css/Global.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+    @*  Section for CSS Start *@
+
+</head>
+<body id="body">
+
+   @*  Header Section Start *@
+    <header>
+      <div class="nav">
+        <img src = "images/evnt.png" alt="Company Logo" class="logo">
+        <nav>
+          <ul>
+            <li><a asp-page="/Index">Home</a></li>
+            <li><a asp-page="/Events">Events</a></li>
+            <li><a asp-page="/EventDetails">Event Details</a></li>
+            <li><a asp-page="/Contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </header>
+    @*  Header Section End *@
+
+   
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    @*  Footer Section Start *@
+    <footer>
+        <small>&copy; 2025 evnt</small>
+        <small>|</small>
+        <small>Jonah Lawson</small>
+        <small>|</small>
+        <small>jonahlawson05@gmail.com</small>
+    </footer>
+    @*  Header Section End *@
+
+
+
+    @*  Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="localStorage.js" asp-asp-append-version="true"></script>
+    @*  Add Site Wide JavaScript End *@
+
+
+    @*  Section for Scripts Start *@
+    @await RenderSectionAsync("Scripts", required: false)
+    @*  Section for Scripts End *@
+
+</body>
+</html>

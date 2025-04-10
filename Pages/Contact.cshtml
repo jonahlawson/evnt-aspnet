@@ -1,0 +1,50 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Contact.css" asp-append-version="true"/>
+}
+
+@section Scripts {
+    <script src="~/js/Contact.js"></script>
+}
+
+<h1>Contact</h1>
+
+<section>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="First Name*" required><br><br>
+    
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Last Name*" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Email*" required><br><br>
+    
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" placeholder="Phone"><br><br>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Message*" required></textarea><br><br>
+    
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <div class="faq-section">
+        <h3>Q1. How to customise the font size and header colour for the website?</h3>
+        <p>A1: On the bottom of the home page, there will be a customisation section providing options to be able to change the font size and the header background colour for each and every page.</p>
+        <h3>Q2. Where am I able to find more information about the artists?</h3>
+        <p>A2: In the Event Details page, each and every artist has a 'More Info' hyperlink that will direct you to their wikipedia, where you will be able to discover more information about them.</p>
+        <h3>Q3. What is the point of having an Event page as well as an Event Details page?</h3>
+        <p>A3: On the Event page, there will be basic information for each artist performing this year - however, if you click the image for an artist, it will direct you to more details for them on the Event Details page.</p>
+      </div>
+      
+    </section>

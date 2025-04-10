@@ -1,0 +1,57 @@
+@page
+@model EventsModel
+@{
+    ViewData["Title"] = "Events page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Events.css" asp-append-version="true"/>
+}
+
+<h1>Events</h1>
+
+<section>
+      <h2>Upcoming Events</h2>
+      <div class="event-section">
+        <div class="event">
+          <h3>Jpegmafia - Lay Down My Life Tour</h3>
+          <p>Location: Manchester Academy, Manchester</p>
+          <p>Date: Fri, 31 Jan 2025</p>
+          <a href="event-detail.html#jpegmafia"><img class="eventImages" src="images/event1.jpeg" alt="Event 1 Image"></a>
+        </div>
+        <div class="event">
+          <h3>Blanco</h3>
+          <p>Location: Mama Roux's, Birmingham</p>
+          <p>Date: Tue, 18 Feb 2025</p>
+          <a href="event-detail.html#blanco"><img class="eventImages" src="images/event2.jpeg" alt="Event 2 Image"></a>
+        </div>
+      </div>
+      <div class="event-section">
+        <div class="event">
+          <h3>J.I the Prince of N.Y</h3>
+          <p>Location: O2 Institute Birmingham, Birmingham</p>
+          <p>Date: Sat, 12 Apr 2025</p>
+          <a href="event-detail.html#ji"><img class="eventImages" src="images/event3.jpg" alt="Event 3 Image"></a>
+        </div>
+        <div class="event">
+          <h3>Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR</h3>
+          <p>Location: Utilita Arena Birmingham, Birmingham</p>
+          <p>Date: Sat, 17 May 2025</p>
+          <a href="event-detail.html#tyler"><img class="eventImages" src="images/event4.png" alt="Event 4 Image"></a>
+        </div>
+      </div>
+      <div class="event-section">
+        <div class="event">
+          <h3>Nelly with Eve & Special Guests: Where The Party At Tour</h3>
+          <p>Location: The O2, London</p>
+          <p>Date: Thu, 5 Jun 2025</p>
+          <a href="event-detail.html#nelly"><img class="eventImages" src="images/event5.jpg" alt="Event 5 Image"></a>
+        </div>
+        <div class="event">
+          <h3>Denzel Curry</h3>
+          <p>Location: O2 Academy Glasgow, Glasgow</p>
+          <p>Date: Fri, 20 Jun 2025</p>
+          <a href="event-detail.html#denzel"><img class="eventImages" src="images/event6.jpg" alt="Event 6 Image"></a>
+        </div>
+      </div>
+    </section>
