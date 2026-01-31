@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\soft20181_starter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\soft20181_starter.zr6oxqe82l.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\AdminEvents.css",
+      "PackagePath": "staticwebassets\\css\\AdminEvents.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\EventDetails.css",
+      "PackagePath": "staticwebassets\\css\\EventDetails.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\Events.css",
+      "PackagePath": "staticwebassets\\css\\Events.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\Global.css",
+      "PackagePath": "staticwebassets\\css\\Global.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\css\\ManageUser.css",
+      "PackagePath": "staticwebassets\\css\\ManageUser.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event1.jpeg",
+      "PackagePath": "staticwebassets\\images\\event1.jpeg"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event2.jpeg",
+      "PackagePath": "staticwebassets\\images\\event2.jpeg"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event3.jpg",
+      "PackagePath": "staticwebassets\\images\\event3.jpg"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event4.png",
+      "PackagePath": "staticwebassets\\images\\event4.png"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event5.jpg",
+      "PackagePath": "staticwebassets\\images\\event5.jpg"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\event6.jpg",
+      "PackagePath": "staticwebassets\\images\\event6.jpg"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\images\\evnt.png",
+      "PackagePath": "staticwebassets\\images\\evnt.png"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\js\\Contact.js",
+      "PackagePath": "staticwebassets\\js\\Contact.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\js\\localStorage.js",
+      "PackagePath": "staticwebassets\\js\\localStorage.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\blanco.mp4",
+      "PackagePath": "staticwebassets\\videos\\blanco.mp4"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\denzelcurry.mp4",
+      "PackagePath": "staticwebassets\\videos\\denzelcurry.mp4"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\jiprinceofny.mp4",
+      "PackagePath": "staticwebassets\\videos\\jiprinceofny.mp4"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\jpegmafia.mp4",
+      "PackagePath": "staticwebassets\\videos\\jpegmafia.mp4"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\nelly.mp4",
+      "PackagePath": "staticwebassets\\videos\\nelly.mp4"
+    },
+    {
+      "Id": "D:\\NTU Year 2\\Internet Application Programming\\Event Booking Website ASP NET NEW\\soft20181_starter\\wwwroot\\videos\\tylerthecreator.mp4",
+      "PackagePath": "staticwebassets\\videos\\tylerthecreator.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.soft20181_starter.props",
+      "PackagePath": "build\\soft20181_starter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.soft20181_starter.props",
+      "PackagePath": "buildMultiTargeting\\soft20181_starter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.soft20181_starter.props",
+      "PackagePath": "buildTransitive\\soft20181_starter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.soft20181_starter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.soft20181_starter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

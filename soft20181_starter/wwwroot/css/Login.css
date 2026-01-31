@@ -1,0 +1,140 @@
+﻿/* General Styles */
+body {
+    font-family: "Funnel Display", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for the login page */
+    color: #333232; /* Text color */
+}
+
+/* Login Page Container */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height for vertical centering */
+    margin: 0;
+}
+
+/* Form Section */
+form#account {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Limit the form width */
+}
+
+    /* Form Heading */
+    form#account h2 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #333232;
+        text-align: center;
+    }
+
+    /* Input Fields */
+    form#account .form-floating {
+        margin-bottom: 20px;
+    }
+
+        form#account .form-floating input {
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 4px; /* Rounded corners */
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        form#account .form-floating label {
+            font-size: 14px;
+            color: #666666;
+        }
+
+    /* Validation Messages */
+    form#account .text-danger {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /* Remember Me Checkbox */
+    form#account .checkbox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+        form#account .checkbox input {
+            margin-right: 10px;
+        }
+
+    /* Submit Button */
+    form#account button#login-submit {
+        background-color: #007bff; /* Bootstrap primary color */
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        form#account button#login-submit:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+    /* Links */
+    form#account a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+        form#account a:hover {
+            text-decoration: underline;
+        }
+
+section h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333232;
+    text-align: center;
+}
+
+section form#external-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    section form#external-account button {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+        section form#external-account button:hover {
+            background-color: #0056b3;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form#account {
+        padding: 20px;
+    }
+
+    section form#external-account button {
+        width: 100%;
+    }
+}

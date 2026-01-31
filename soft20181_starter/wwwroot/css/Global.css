@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Funnel Display";
+    margin: 0;
+    padding-top: 40px;
+    color: #333232;
+    background-color: #ffffff;
+}
+
+/* General Header Styles */
+header {
+    background-color: #ffffff;  /* Dark background for the header */
+    color: white;            /* Text color */
+}
+
+/* Navigation Container */
+.nav {
+    display: flex;
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.13);       /* Flexbox for easy alignment */
+    align-items: center;     /* Vertically center the items */
+    height: 60px;
+
+    position: fixed;   /* Make it sticky */
+    top: 0;             /* Stick to the top of the viewport */
+    width: 100%;
+    z-index: 1000;      /* Ensure it stays above other elements */
+    background-color: #ffffff; /* Background so content doesn't show through */
+}
+
+/* Logo Styling */
+.logo {
+    max-width: 100px;        /* Set the logo width */
+    height: auto;            /* Maintain the aspect ratio */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;        /* Remove default list style */
+    font-size: 12px;
+    margin: 0;               /* Remove default margin */
+    padding: 0;              /* Remove default padding */
+    align-items: center;
+    display: flex;           /* Display items in a row */
+}
+
+/* Link Styling */
+nav ul li a {
+    padding: 22.5px 30px;
+    color: #333232;            /* Set the link color */
+    text-decoration: none;   /* Remove the default underline */
+    transition: background-color 0.3s ease;  /* Smooth transition for color change on hover */
+}
+
+/* Link Hover Styling */
+nav ul li a:hover {
+    color: #333232;
+    background-color: #f1f1f1;             /* Lighter color on hover */
+}
+
+/* Clearfix for floated elements */
+.clear {
+    clear: both;             /* Clear the float to avoid layout issues */
+}
+
+footer {
+    background-color: #333232;
+    margin-left: 0px;
+    padding: 10px 0;
+}
+
+footer small {
+    color: #fff;
+    text-align: left;
+    margin: 10px;
+}
