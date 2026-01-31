@@ -3,6 +3,7 @@
 }
 
 body {
+    font-size: 20px;
     font-family: "Funnel Display";
     margin: 0;
     padding-top: 40px;
@@ -39,10 +40,8 @@ header {
 /* Navigation Styling */
 nav ul {
     list-style: none;        /* Remove default list style */
-    font-size: 12px;
     margin: 0;               /* Remove default margin */
     padding: 0;              /* Remove default padding */
-    align-items: center;
     display: flex;           /* Display items in a row */
 }
 
@@ -51,6 +50,7 @@ nav ul li a {
     padding: 22.5px 30px;
     color: #333232;            /* Set the link color */
     text-decoration: none;   /* Remove the default underline */
+    font-size: 15px;         /* Set font size for the links */
     transition: background-color 0.3s ease;  /* Smooth transition for color change on hover */
 }
 

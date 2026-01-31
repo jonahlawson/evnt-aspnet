@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width/>
     <title>@ViewData["Title"] - EVNT</title>
 
     @*  Section for CSS Start *@
@@ -23,19 +23,13 @@
    @*  Header Section Start *@
     <header>
       <div class="nav">
-        <img src = "~/images/evnt.png" alt="Company Logo" class="logo">
+        <img src = "images/evnt.png" alt="Company Logo" class="logo">
         <nav>
           <ul>
             <li><a asp-page="/Index">Home</a></li>
             <li><a asp-page="/Events">Events</a></li>
             <li><a asp-page="/EventDetails">Event Details</a></li>
             <li><a asp-page="/Contact">Contact</a></li>
-            @if (User.IsInRole("Admin"))
-            {
-                <li><a asp-page="/AdminEvents">Manage Events</a></li>
-                <li><a asp-page="/ManageUser">Manage User</a></li>
-            }
-            <partial name="_LoginPartial" />
           </ul>
         </nav>
         <div class="clear"></div>
@@ -45,7 +39,7 @@
 
    
 
-    <div class="container-fluid">
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -67,7 +61,7 @@
     @*  Add Site Wide JavaScript Start *@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/localStorage.js" asp-append-version="true"></script>
+    <script src="localStorage.js" asp-asp-append-version="true"></script>
     @*  Add Site Wide JavaScript End *@
 
 

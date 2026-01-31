@@ -1,5 +1,5 @@
 @page
-@model soft20181_starter.Pages.EventDetailsModel
+@model EventDetailsModel
 @{
     ViewData["Title"] = "Event Details page";
 }
@@ -10,28 +10,89 @@
 
 <h1>Event Details</h1>
 
-<section class="searchquery">
-    <form method="get" asp-page="EventDetails">
-    <input type="text" name="searchQuery" placeholder="Search events..." value="@Model.SearchQuery" />
-    <button type="submit">Search</button>
-</form>
-</section>
-
 <section class="grid">
-    @foreach (var ev in Model.Events)
-    {
-        <a id="@ev.Id" style="margin-top: -40px;"></a>
-        <div class="eventdetails-section">
-            <h3>@ev.Title</h3>
-            <img class="eventImages" src="@ev.ImagePath" alt="Event 1 Image">
-            <video width="300" height="200" controls>
-                <source src="@ev.VideoPath" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>Location: @ev.Location</p>
-            <p>Date: @ev.Date</p>
-            <p>Time: @ev.Time</p>
-            <span class="descr">Description: <br><br> @ev.Description <a class="descr" href="@ev.Website">More Info</a></span>
-        </div>
-    }
+  <a id="jpegmafia" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>Jpegmafia - Lay Down My Life Tour</h3>
+    <img class="eventImages" src="images/event1.jpeg" alt="Event 1 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/jpegmafia.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: Manchester Academy, Manchester</p>
+      <p>Date: Fri, 31 Jan 2025</p>
+      <p>Time: 19:00</p>
+      <span class="descr">Description: <br><br> Barrington DeVaughn Hendricks, known professionally as JPEGMafia, is an American rapper, singer, and record producer. Born in Flatbush, Brooklyn, he signed with Deathbomb Arc to release his debut studio album, Black Ben Carson and his second album Veteran, which received widespread critical acclaim. <a class="descr" href="https://en.wikipedia.org/wiki/JPEGMafia">More Info</a></span>
+  </div>
+
+  <a id="blanco" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>Blanco</h3>
+    <img class="eventImages" src="images/event2.jpeg" alt="Event 2 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/blanco.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: Mama Roux's, Birmingham</p>
+      <p>Date: Tue, 18 Feb 2025</p>
+      <p>Time: 19:00</p>
+      <span class="descr">Description: <br><br> Joshua Emmanuel Pinto João Eduardo, known professionally as Blanco, is a British-Angolan rapper and singer. Beginning his career in 2015, he released his debut EP, English Dubbed, in 2019, and debut mixtape, City of God, in 2021. He is a former member of the UK drill group Harlem Spartans. <a class="descr" href="https://en.wikipedia.org/wiki/Blanco_(British_rapper)">More Info</a></span>
+  </div>
+
+  <a id="ji" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>J.I the Prince of N.Y</h3>
+    <img class="eventImages" src="images/event3.jpg" alt="Event 3 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/jiprinceofny.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: O2 Institute Birmingham, Birmingham</p>
+      <p>Date: Sat, 12 Apr 2025</p>
+      <p>Time: 19:00</p>
+      <span class="descr">Description: <br><br> Justin Irvin Rivera, better known by his stage name J.I the Prince of N.Y or more recently simply J.I., is an American rapper, singer, and songwriter. He is best known for his 2019 breakout single "Need Me", which has over 100 million streams on Spotify. <a class="descr" href="https://en.wikipedia.org/wiki/J.I_the_Prince_of_N.Y">More Info</a></span>
+  </div>
+
+  <a id="tyler" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>Tyler, the Creator - CHROMAKOPIA: THE WORLD TOUR</h3>
+    <img class="eventImages" src="images/event4.png" alt="Event 4 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/tylerthecreator.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: Utilita Arena Birmingham, Birmingham</p>
+      <p>Date: Sat, 17 May 2025</p>
+      <p>Time: 18:00</p>
+      <span class="descr">Description: <br><br> Tyler Gregory Okonma, known professionally as Tyler, the Creator, is an American rapper, singer, and record producer. He has been cited as an influential figure in alternative hip hop during the 2010s. <a class="descr" href="https://en.wikipedia.org/wiki/Tyler,_the_Creator">More Info</a></span>
+  </div>
+
+  <a id="nelly" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>Nelly with Eve & Special Guests: Where The Party At Tour</h3>
+    <img class="eventImages" src="images/event5.jpg" alt="Event 5 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/nelly.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: The O2, London</p>
+      <p>Date: Thu, 5 Jun 2025</p>
+      <p>Time: 18:30</p>
+      <span class="descr">Description: <br><br> Cornell Iral Haynes Jr., better known by his stage name Nelly, is an American rapper, singer, and actor. He grew up in St. Louis, Missouri, and embarked on his musical career in 1993 as a member of the Midwest hip hop group St. Lunatics. <a class="descr" href="https://en.wikipedia.org/wiki/Nelly">More Info</a></span>
+  </div>
+
+  <a id="denzel" style="margin-top: -40px;"></a>
+  <div class="eventdetails-section">
+    <h3>Denzel Curry</h3>
+    <img class="eventImages" src="images/event6.jpg" alt="Event 6 Image">
+    <video width="300" height="200" controls> 
+      <source src="videos/denzelcurry.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+      <p>Location: O2 Academy Glasgow, Glasgow</p>
+      <p>Date: Fri, 20 Jun 2025</p>
+      <p>Time: 19:00</p>
+      <span class="descr">Description: <br><br> Denzel Rae Don Curry is an American rapper. Born and raised in Miami Gardens, Florida, Curry started rapping while in the sixth grade and began working on his first mixtape, King Remembered Underground Tape 1991–1995, in 2011, which was influenced by underground Florida rapper SpaceGhostPurrp. <a class="descr" href="https://en.wikipedia.org/wiki/Denzel_Curry">More Info</a></span>
+  </div>
+
 </section>

@@ -1,9 +1,6 @@
-console.log("localStorage.js is loaded and running");
-
 document.addEventListener('DOMContentLoaded', function () {
     loadCustomisationSettings();
     addEventListeners();
-    resetSettings();
 });
 
 // Load customisation settings from localStorage
@@ -17,33 +14,6 @@ function loadCustomisationSettings() {
     applySettings(fontSize, navColour);
 }
 
-function resetSettings() {
-
-    console.log("resetsettings function is running")
-    const resetButton = document.getElementById("resetCustomisation");
-    if (!resetButton) {
-        console.error("Reset button not found!");
-        return;
-    }
-
-    resetButton.addEventListener("click", function () {
-        console.log("Reset button clicked!");
-
-        // Clear localStorage for customization settings
-        localStorage.removeItem("customisationSettings");
-
-        // Reset navigation font size to default
-        document.querySelectorAll(".nav a").forEach(link => {
-            link.style.fontSize = ""; // Reset to default
-        });
-
-        // Reset header background color to default
-        document.querySelector("header").style.backgroundColor = ""; // Reset to default
-
-        // Optionally, reload the page to ensure all changes are applied
-        location.reload();
-    });
-}
 // Apply the customisation settings to the page
 function applySettings(fontSize, navColour) {
     document.body.style.fontSize = `${fontSize}px`;
