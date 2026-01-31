@@ -1,0 +1,69 @@
+﻿@page
+@model soft20181_starter.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true"/>
+}
+
+@section Scripts {
+<script src="~/js/Index.js"></script>
+<script src="~/js/localStorage.js"></script>
+}
+
+<h1>Home</h1>
+
+<section>
+    <h2>Evnt: Your 2025 Hip-Hop & Rap Concert Hub</h2>
+    <p>Find every upcoming show, date and lineup. Evnt is your go-to source for the most record breaking Hip-Hop & Rap concerts happening in 2025.</p>
+    <ul id="introList">
+        <li> - Upcoming Shows: Discover a curated selection of events.</li>
+        <li> - Event Details: Get the lowdown – dates, times, venues, and who's playing.</li>
+        <li> - Artist Spotlights: Dive deeper with exclusive artist videos.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Showcase</h2>
+    <div class="eventsContainer">
+        @foreach (var ev in Model.Events)
+        {
+            <div class="eventSlide">
+                <img class="eventImages" src="@ev.ImagePath" style="width: 100%" alt="@ev.Title Image" />
+            </div>
+        }
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dots">
+        @for (int i = 0; i < Model.Events.Count; i++)
+        {
+            <span class="dot" onclick="currentSlide(@i)"></span>
+        }
+    </div>  
+</section>
+
+<section>
+    <h2>Customisation</h2>
+    <div id="customisation-controls">
+
+        <div id="fontSection">
+            <label for="fontSize">Font Size:</label>
+            <input type="range" id="fontSize" min="15" max="25" value="20">
+        </div>
+
+        <div id="colourSection">
+            <label for="navColour">Header Background Colour:</label>
+            <input type="color" id="navColour">
+        </div>
+
+        <div>
+            <button id="resetCustomisation" class="btn btn-secondary">Reset Customizations</button>
+        </div>
+
+    </div>
+</section>

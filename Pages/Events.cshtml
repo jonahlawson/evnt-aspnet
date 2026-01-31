@@ -1,0 +1,26 @@
+@page
+@model soft20181_starter.Pages.EventsModel
+@{
+    ViewData["Title"] = "Events page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/Events.css" asp-append-version="true"/>
+}
+
+<h1>Events</h1>
+
+<section>
+    <h2>Upcoming Events</h2>
+    <div class="event-section">
+        @foreach (var ev in Model.Events)
+        {
+            <div class="event">
+                <h3>@ev.Title</h3>
+                <p>Location:@ev.Location</p>
+                <p>Date: @ev.Date</p>
+                <a href="EventDetails.html#@ev.Id"><img class="eventImages" src="@ev.ImagePath" alt="@ev.Title Image"></a>
+            </div>
+        }
+    </div>
+</section>

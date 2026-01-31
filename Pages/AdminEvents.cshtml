@@ -1,0 +1,101 @@
+﻿@page
+@model soft20181_starter.Pages.AdminEventsModel
+@{
+	ViewData["Title"] = "Admin Events page";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/AdminEvents.css" asp-append-version="true" />
+}
+
+<h1>Manage Events</h1>
+
+<section>
+    <form method="post" asp-page-handler="Add">
+        <h2>Add New Event</h2>
+        <div>
+            <label asp-for="EventInfo.Title">Title:</label>
+            <input asp-for="EventInfo.Title" />
+            <span asp-validation-for="EventInfo.Title" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.Location">Location:</label>
+            <input asp-for="EventInfo.Location" />
+            <span asp-validation-for="EventInfo.Location" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.Date">Date:</label>
+            <input asp-for="EventInfo.Date" type="date" />
+            <span asp-validation-for="EventInfo.Date" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.Time">Time:</label>
+            <input asp-for="EventInfo.Time" />
+            <span asp-validation-for="EventInfo.Time" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.Description">Description:</label>
+            <textarea asp-for="EventInfo.Description"></textarea>
+            <span asp-validation-for="EventInfo.Description" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.ImagePath">Image Path:</label>
+            <input asp-for="EventInfo.ImagePath" />
+            <span asp-validation-for="EventInfo.ImagePath" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.VideoPath">Video Path:</label>
+            <input asp-for="EventInfo.VideoPath" />
+            <span asp-validation-for="EventInfo.VideoPath" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="EventInfo.Website">Website Link:</label>
+            <input asp-for="EventInfo.Website" />
+            <span asp-validation-for="EventInfo.Website" class="text-danger"></span>
+        </div>
+        <button type="submit">Add Event</button>
+    </form>
+</section>
+
+<section>
+    <h2>Existing Events</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Description</th>
+                <th>Image Path</th>
+                <th>Video Path</th>
+                <th>Website Link</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Events != null)
+            {
+                @foreach (var ev in Model.Events)
+                {
+                    <tr>
+                        <td>@ev.Title</td>
+                        <td>@ev.Location</td>
+                        <td>@ev.Date.ToShortDateString()</td>
+                        <td>@ev.Time</td>
+                        <td>@ev.Description</td>
+                        <td>@ev.ImagePath</td>
+                        <td>@ev.VideoPath</td>
+                        <td>@ev.Website</td>
+                        <td>
+                            <form method="post" asp-page-handler="Delete">
+                                <input type="hidden" name="id" value="@ev.Id" />
+                                <button type="submit">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</section>
